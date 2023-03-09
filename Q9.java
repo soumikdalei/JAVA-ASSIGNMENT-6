@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class Q9 {
     public static boolean password(String str){
     for(int i=0;i<=str.length();i++){
-        int d=(int)(str.charAt(i));
-        if(!(d>=48 &&d<=57)||(d>=65&&d<=90)||(d>=97&&d<=122)){
+        int d=(str.charAt(i);
+        if(!(d>=48 &&d<=57)&&(d>=65&&d<=90)&&(d>=97&&d<=122)){
                return false;
         }
     }
